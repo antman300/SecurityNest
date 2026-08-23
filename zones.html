@@ -1,5 +1,4 @@
 <!doctype html>
-
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -11,20 +10,89 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark site-navbar">
         <div class="container">
-            <a class="navbar-brand d-flex align-items-center gap-2" href="index.html"><img src="logo.png" alt="SecureNest logo" class="brand-logo"><span>SecureNest</span></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Open navigation"><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse" id="mainNav"><ul class="navbar-nav ms-auto"><li class="nav-item"><a class="nav-link" href="index.html">Home</a></li><li class="nav-item"><a class="nav-link active" href="zones.html">Zones</a></li><li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li><li class="nav-item"><a class="nav-link" href="Control.html">Control</a></li></ul></div>
+            <a class="navbar-brand d-flex align-items-center gap-2" href="index.html">
+                <img src="logo.png" alt="SecureNest logo" class="brand-logo">
+                <span>SecureNest</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Open navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mainNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="zones.html">Zones</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Control.html">Control</a></li>
+                </ul>
+            </div>
         </div>
     </nav>
+
     <main>
-        <section class="page-heading"><div class="container"><p class="eyebrow text-primary">LIVE PROTECTION</p><h1 class="display-5 fw-bold">Monitoring zones</h1><p class="lead mb-0">Choose a zone to see its current protection status.</p></div></section>
-        <section class="py-5 bg-white"><div class="container"><div class="row g-4">
-            <div class="col-md-6 col-lg-4"><article class="card zone-card h-100 shadow-sm"><img src="living-room.jpg" class="card-img-top zone-image" alt="Living room monitored by a security camera"><div class="card-body d-flex flex-column"><div class="d-flex justify-content-between align-items-center mb-3"><h2 class="h4 card-title mb-0">Living Room</h2><span class="badge text-bg-success">Secure</span></div><p class="card-text">Monitor the main living area and receive alerts for unexpected movement.</p><a class="btn btn-outline-primary mt-auto" href="contact.html">Manage this zone</a></div></article></div>
-            <div class="col-md-6 col-lg-4"><article class="card zone-card h-100 shadow-sm"><img src="kitchen.jpg" class="card-img-top zone-image" alt="Kitchen monitored by a security camera"><div class="card-body d-flex flex-column"><div class="d-flex justify-content-between align-items-center mb-3"><h2 class="h4 card-title mb-0">Kitchen</h2><span class="badge text-bg-success">Secure</span></div><p class="card-text">Keep an eye on the kitchen and receive updates when activity is detected.</p><a class="btn btn-outline-primary mt-auto" href="contact.html">Manage this zone</a></div></article></div>
-            <div class="col-md-6 col-lg-4"><article class="card zone-card h-100 shadow-sm"><img src="security-zone.jpg" class="card-img-top zone-image" alt="Home entry security zone monitored by a camera"><div class="card-body d-flex flex-column"><div class="d-flex justify-content-between align-items-center mb-3"><h2 class="h4 card-title mb-0">Security Zone</h2><span class="badge text-bg-warning">Monitoring</span></div><p class="card-text">Watch entrances, hallways, and other areas that need extra protection.</p><a class="btn btn-outline-primary mt-auto" href="contact.html">Manage this zone</a></div></article></div>
-        </div></div></section>
+        <section class="page-heading">
+            <div class="container">
+                <p class="eyebrow text-primary">LIVE PROTECTION</p>
+                <h1 class="display-5 fw-bold">Monitoring zones</h1>
+                <p class="lead mb-0">Choose a zone to see its current protection status.</p>
+            </div>
+        </section>
+
+        <section class="py-5 bg-white">
+            <div class="container">
+                <div class="row g-4">
+                    <div class="col-md-6 col-lg-4">
+                        <article class="card zone-card h-100 shadow-sm">
+                            <img src="living-room.jpg" class="card-img-top zone-image" alt="Living room monitored by a security camera">
+                            <div class="card-body d-flex flex-column">
+                                <div class="d-flex justify-content-between align-items-center mb-3">
+                                    <h2 class="h4 card-title mb-0">Living Room</h2>
+                                    <span class="badge text-bg-success">Secure</span>
+                                </div>
+                                <p class="card-text">Monitor the main living area and receive alerts for unexpected movement.</p>
+                                <a class="btn btn-outline-primary mt-auto" href="contact.html">Manage this zone</a>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4">
+                        <article class="card zone-card h-100 shadow-sm">
+                            <img src="kitchen.jpg" class="card-img-top zone-image" alt="Kitchen monitored by a security camera">
+                            <div class="card-body d-flex flex-column">
+                                <div class="d-flex justify-content-between align-items-center mb-3">
+                                    <h2 class="h4 card-title mb-0">Kitchen</h2>
+                                    <span class="badge text-bg-success">Secure</span>
+                                </div>
+                                <p class="card-text">Keep an eye on the kitchen and receive updates when activity is detected.</p>
+                                <a class="btn btn-outline-primary mt-auto" href="contact.html">Manage this zone</a>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4">
+                        <article class="card zone-card h-100 shadow-sm">
+                            <img src="security-zone.jpg" class="card-img-top zone-image" alt="Home entry security zone monitored by a camera">
+                            <div class="card-body d-flex flex-column">
+                                <div class="d-flex justify-content-between align-items-center mb-3">
+                                    <h2 class="h4 card-title mb-0">Security Zone</h2>
+                                    <span class="badge text-bg-warning">Monitoring</span>
+                                </div>
+                                <p class="card-text">Watch entrances, hallways, and other areas that need extra protection.</p>
+                                <a class="btn btn-outline-primary mt-auto" href="contact.html">Manage this zone</a>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
-    <footer class="site-footer"><div class="container d-flex flex-column flex-md-row justify-content-between gap-3"><span>&copy; 2026 SecureNest. All rights reserved.</span><div class="footer-links"><a href="index.html">Home</a><a href="zones.html">Zones</a><a href="contact.html">Contact</a><a href="Control.html">Control</a></div></div></footer>
+
+    <footer class="site-footer">
+        <div class="container d-flex flex-column flex-md-row justify-content-between gap-3">
+            <span>&copy; 2026 SecureNest. All rights reserved.</span>
+            <div class="footer-links"><a href="index.html">Home</a><a href="zones.html">Zones</a><a href="contact.html">Contact</a> <a href = "Control.html" > Control </a> </a></div>
+        </div>
+    </footer>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
